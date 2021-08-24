@@ -12845,10 +12845,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Shopping_List__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Start_Here</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
