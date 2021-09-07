@@ -72,7 +72,7 @@ public inherited sharing class EggInteg_AuthenticationCallout
     private class AuthenticationCalloutException
         extends Exception
     {
-        // Intentionally blank
+        // Intentionally blank, need to add more documentation here commit
     }
 
     //=============================================
