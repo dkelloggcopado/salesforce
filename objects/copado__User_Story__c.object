@@ -7922,25 +7922,6 @@ Change_Approved__c = false
         <errorMessage>Your change includes metadata that alters the opportunity object.  Changes must be approved before pushing forward.  Please submit approval request by clicking &quot;Submit for Approval&quot;.</errorMessage>
     </validationRules>
     <validationRules>
-        <fullName>Pull_Request_Approved</fullName>
-        <active>false</active>
-        <description>This enforces that a pull request for this User Story must first be approved before the User Story can be marked as &quot;Promote Change&quot; or &quot;Promote &amp; Deploy&quot;. The checkbox Pull Request Approved must equal true,</description>
-        <errorConditionFormula>AND( 
-OR( 
-AND( 
-PRIORVALUE(copado__Promote_Change__c) = false, 
-copado__Promote_Change__c = true 
-), 
-AND( 
-PRIORVALUE(copado__Promote_and_Deploy__c) = false, 
-copado__Promote_and_Deploy__c = true 
-) 
-), 
- copado__Pull_Requests_Approved__c = false
-)</errorConditionFormula>
-        <errorMessage>A pull request must first be approved in order to promote this User Story.</errorMessage>
-    </validationRules>
-    <validationRules>
         <fullName>Run_specified_tests_if_apex</fullName>
         <active>false</active>
         <description>Run specified tests must be selected before selecting &quot;Promote and Deploy&quot; or &quot;Ready to Promote&quot;</description>
