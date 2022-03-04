@@ -4035,11 +4035,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Ohio__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Ownership</field>
         <readable>false</readable>
@@ -6860,16 +6855,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Temperature__c.Celcius__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Temperature__c.Fahrenheit__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Test__c.Deploypicklist__c</field>
         <readable>true</readable>
@@ -9030,11 +9015,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.Latest_Number_of_Test_Failures__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>copado__Org__c.copado__Compliance_Status__c</field>
         <readable>false</readable>
@@ -9248,11 +9228,6 @@
         <editable>false</editable>
         <field>copado__Promoted_User_Story__c.Is_back_promotion__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__Promoted_User_Story__c.Production_Deployment_Created_Date__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -10956,11 +10931,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>copado__User_Story__c.Lead_Time_Test__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>copado__User_Story__c.Number_Of_Components__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -10987,11 +10957,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>copado__User_Story__c.SCA_Violations__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__User_Story__c.Time_Now__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11565,9 +11530,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Temperature__c-Temperature Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test__c-Test Layout</layout>
@@ -12603,15 +12565,6 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Task</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Temperature__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
